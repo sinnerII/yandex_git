@@ -15,9 +15,9 @@ git init
 
 ## Добавление файлов в репозиторий
 
-git add file-name
-git add  --all
-git add .
+git add file-name  
+git add  --all  
+git add .  
  
 ## Коммит изменений
 
@@ -25,22 +25,19 @@ git commit -s ‘description commit’
 
 ## Просмотр истории коммитов
 
-git log
+- git log           // вывод полного лога
+- git log --oneline // вывод сокращенной записи
 
 ## Генерация ssh ключа для github
 
-ssh-keygen -t rsa -b 4096 -C 'email-address'
+- ssh-keygen -t rsa -b 4096 -C 'email-address'
 
 ## Подключение удаленного репозитория
 
- git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
- git remote -v // просмотр информации о удалённом репозитории
+ - git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
+ - git remote -v // просмотр информации о удалённом репозитории
 
 ## Запушить изменения в удаленный репозиторий
 
- git push -u origin master
-
-
-## Вывод лога в кратком формате 
-
-git log --oneline
+ git push -u origin master  // при первом push нужно указать флаг -u
+ git push 
