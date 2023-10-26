@@ -40,3 +40,7 @@ ssh-keygen -t rsa -b 4096 -C 'email-address'
 
  git push -u origin master
 
+
+## Вывод лога в кратком формате 
+
+git log --oneline
