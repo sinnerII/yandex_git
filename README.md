@@ -34,7 +34,7 @@ ssh-keygen -t rsa -b 4096 -C 'email-address'
 
 ## Подключение удаленного репозитория
 
-**git remote add origin git@github.com:%ИМЯАККАУНТА%/first-project.git**
+**git remote add origin git@github.com:%ИМЯАККАУНТА%/first-project.git**  
 **git remote -v // просмотр информации о удалённом репозитории**
 
 ## Запушить изменения в удаленный репозиторий
