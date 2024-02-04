@@ -21,7 +21,7 @@ git add .
  
 ## Коммит изменений
 
-git commit -s ‘description commit’
+git commit -m ‘description commit’
 
 ## Просмотр истории коммитов
 
